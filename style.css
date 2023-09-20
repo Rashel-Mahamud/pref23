@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(178, 178, 33);
+}
+div p:nth-of-type(even){
+    background-color: red;
+}
+div p:only-of-type{
+    background-color: yellow;
+}
+div p:only-child{
+    background-color: blue;
+}
+input:optional{
+    background-color: brown;
+}
+input:required{
+background-color: azure;
+}
+input:read-only{
+    background-color: aqua;
+}
+:target{
+    background-color: chartreuse;
+ padding: 15px;
+    color: blueviolet;
+}
+.r1::first-line{
+    color: red;
+}
+.r1::first-letter{
+    font-size: 300px;
+    color: blue;
+}
+h1::before{
+content:"i am before";
+color: blueviolet;
+}
+h1::after{
+    content:"i am after";
+    color:red ;
+}
